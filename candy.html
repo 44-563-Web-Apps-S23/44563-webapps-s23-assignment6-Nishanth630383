@@ -63,7 +63,7 @@ function selectBox (){
 
     <input type="button" value="Update the box" onclick="updateBox()">
 </form>
-<p id="result2">A cand is updates</p>
+
 
 <script>
     function updateBox(){
@@ -72,7 +72,7 @@ function selectBox (){
         my_candy_box["size"] = size;
         my_candy_box["price"] = price;
 
-        document.getElementById("result2").innerHTML=JSON.stringify(my_candy_box)
+        document.getElementById("result").innerHTML=JSON.stringify(my_candy_box)
     }
 </script>
 
